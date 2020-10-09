@@ -1,0 +1,238 @@
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 799px) {
+    .header{
+        display: none;
+    }
+    .block3Content a,.block4Content a {
+        padding-left: 0px;
+    }
+    .block3Content li,.block4Content li{
+        font-size: 18px;
+    }
+    .block3Content p,.block4Content p{
+font-size: 16px;
+        padding-left: 0px;
+    }
+    .block4Tittle{
+        font-size: 27px;
+    }
+    .block6Content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 150px;
+    }
+    .menuFooter{
+        display: flex;
+    }
+    .block6Row2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   .block1,.block2,.block3,.block4,.block5,.block6,.block7{
+       padding-left: 30px;
+       padding-right: 30px;
+   }
+   .footerRow2,.footerRow3,.logoFooter{
+       display: none;
+   }
+    .block1ContentMain,.block3ContentMain, .block4ContentMain,.block5ContentMain,.block6ContentMain  {
+        display: flex;
+    }
+    .block1Buttons, .block5Buttons {
+        flex-direction: column;
+    }
+    .block3Tittle{
+        font-size: 31px;
+    }
+    .block4Desc, .block5Desc{
+        padding-bottom: 45px;
+    }
+    .block6Row2{
+        padding-top: 40px;
+    }
+    .block6ContentMain {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    .block3ContentMain, .block4ContentMain {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .block2ContentMain {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        display: flex;
+    }
+    .block1ContentMain {
+        padding-top: 64px;
+        padding-bottom: 68px;
+    }
+    .block6Tittle {
+        font-size: 16px;
+        color: #393e6b;
+        white-space: normal;
+    }
+    .block6Content {
+        padding-top: 40px;
+    }
+    .block6Text a {
+        font-size: 17px;
+        color: #0da088;
+        text-decoration: underline;
+    }
+    .menuFooter {
+    display: flex;
+        margin-left: 35px;
+        margin-right: 60px;
+        padding-top: 40px;
+    }
+.footerData,.footerAllright{
+    color: #f0f5f5;
+}
+    .tryFreeBut{
+        padding-bottom: 15px;
+    }
+    .checkButTarrifs,.checkButFree,.allBut,.testBut{
+        width: 100%;
+    }
+
+    .block2ContentRight{
+        padding-left: 40px;
+    }
+    .block2Content {
+        display: flex;
+        padding-top: 75px;
+        height: 141px;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    .regImgWrap{
+        left: -17px;
+    }
+    .block2ContentRight a{
+        width: 50%;
+    }
+    .regImg{
+        zoom: 85%;
+    }
+.installImg{
+    zoom: 85%;
+}
+
+    .block5Img{
+        margin-right: 0px;
+    }
+    .block5Item1Img{
+        background: url(img/step_01.svg) no-repeat;
+        width: 45%;
+     background-size: contain;
+        height: 0;
+
+        padding-top: 23%;
+
+        position: relative;
+
+
+    }
+    .block5Item2Img{
+        background: url("img/step_02.svg") no-repeat;
+        width: 24%;
+        background-size: contain;
+        height: 0;
+
+        padding-top: 23%;
+
+        position: relative;
+    ;
+    }
+    .block5Item3Img{
+        background: url("img/step_03.svg") no-repeat;
+        width: 21%;
+        background-size: contain;
+        height: 0;
+
+        padding-top: 23%;
+
+        position: relative;
+
+    }
+    .block5Item4Img{
+        background: url("img/step_04.svg") no-repeat;
+        width: 27%;
+        background-size: contain;
+        height: 0;
+
+        padding-top: 23%;
+
+        position: relative;
+    }
+    .allWeBut{
+        padding-bottom: 15px;
+    }
+    .block5ItemTittle{
+        white-space: nowrap;
+    }
+    .block5Item5Img{
+        background: url("img/step_05.svg") no-repeat;
+        width: 20%;
+        background-size:contain;
+        height: 86px;
+    }
+    .block5Img {
+        margin-right: 15px;
+        background-position: center!important;
+    }
+    .block5Item6Img{
+        background: url("img/step_06.svg") no-repeat;
+        width: 20%;
+        background-size:contain;
+        height: 86px;
+    }
+    .block5Wrap{
+        display: flex;
+        width: 100%;
+    }
+    .block5WrapContent{
+        width: 100%;
+    }
+    .block5Tittle{
+        font-size: 27px;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        left: 40px;
+        top: 23px;
+    }
+    .menu-logo-container{
+        width: 100%;
+    }
+    .headerMobile{
+        display: block;
+        height: 70px;
+    }
+
+    .menu-logo {
+        -webkit-mask-image: url(img/logo.svg);
+        background-color: #393e6b;
+        width: 182px;
+        height: 44px;
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+    .menu-link{
+        text-transform: uppercase;
+        color: #393e6b;
+
+    }
+
+}
