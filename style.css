@@ -26,7 +26,8 @@ a{
 
 }
 .header a{
-    color:#393e6b
+    color:#393e6b;
+    padding-right: 35px;
 }
 
 
@@ -38,8 +39,9 @@ a{
 .menu-header-text {
     display: flex;
     list-style: none;
+    flex-direction: row;
     padding-left: 0px;
-    flex-direction: column;
+
 
 }
 .menu-header-text li {

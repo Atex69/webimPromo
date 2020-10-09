@@ -229,10 +229,17 @@ font-size: 16px;
         margin-top: 20px;
         margin-left: 110px;
     }
+    .menu-header-text{
+        flex-direction: column;
+    }
     .menu-link{
         text-transform: uppercase;
         color: #393e6b;
 
+    }
+
+    .header a{
+        padding-right: 0px;
     }
 
 }
