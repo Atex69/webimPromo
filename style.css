@@ -723,3 +723,10 @@ margin-bottom: 5px;
 .menu-header-text li{
     margin-right: 0px!important;
 }
+
+.animate__animated{
+
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
